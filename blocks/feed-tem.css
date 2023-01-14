@@ -1,10 +1,25 @@
-.element__image {
+.feed-item {
+  list-style-type: none;
+  width: 282px;
+  height: 361px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+
+.feed-item__image {
   max-width: 282px;
   position: absolute;
   top: 0;
 }
 
-.element__name {
+.feed-item__name {
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -18,7 +33,7 @@
   position: relative;
 }
 
-.element__like-button {
+.feed-item__like-button {
   background-image: url(../images/Vector.svg);
   color: #000;
   margin: 31px 20px 30px 0px;
@@ -31,6 +46,6 @@
   cursor: pointer;
 }
 
-.element__like-button:hover {
+.feed-item__like-button:hover {
   opacity: 0.5;
 }

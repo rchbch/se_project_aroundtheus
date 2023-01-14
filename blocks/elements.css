@@ -1,9 +1,9 @@
-.elements {
+.feed {
   max-width: 880px;
   margin: 51px auto 0px;
 }
 
-.elements__lists {
+.feed-list {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -12,27 +12,12 @@
   column-gap: 17px;
 }
 
-.elements__lists-item {
-  list-style-type: none;
-  width: 282px;
-  height: 361px;
-
-  background: #ffffff;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-  overflow: hidden;
-}
-
 @media screen and (max-width: 520px) {
-  .elements {
+  .feed-list {
     margin-top: 0;
   }
 
-  .elements__lists {
+  .feed {
     justify-content: center;
     margin-top: 0;
   }
