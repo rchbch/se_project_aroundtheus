@@ -1,0 +1,14 @@
+.feed-list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 17px;
+}
+
+@media screen and (max-width: 520px) {
+  .feed-list {
+    margin-top: 0;
+  }
+}
