@@ -19,5 +19,7 @@ Interactive page where users can add and remove photos, like photos of other use
 Adaptive Layouts, BEM
 
 **Pictures, GIFs, or screenshots that detail the project features**
+![This is an image](https://pictures.s3.yandex.net/resources/project-3-desktop-mobile_1651235950.png)
 
 **The link to GitHub Pages**
+https://rchbch.github.io/se_project_aroundtheus/
