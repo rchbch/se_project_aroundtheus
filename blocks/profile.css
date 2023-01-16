@@ -1,16 +1,16 @@
 .profile {
   max-width: 880px;
-  min-height: 120px;
   margin: auto;
   display: flex;
   justify-content: flex-start;
 }
 
 .profile__avatar {
-  max-width: 120px;
-  max-height: 120px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   margin-right: 30px;
+  object-fit: cover;
 }
 
 .profile__info {
@@ -21,7 +21,7 @@
 
 .profile__name {
   margin: 22px 18px 0px 0px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 42px;
@@ -30,7 +30,7 @@
 
 .profile__title {
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -43,7 +43,7 @@
   width: 24px;
   height: 24px;
   background-image: url(../images/pan.svg);
-  background-color: #000;
+  background-color: transparent;
   background-size: 10px;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,7 +61,7 @@
   width: 150px;
   height: 50px;
   background-image: url(../images/plus.svg);
-  background-color: #000;
+  background-color: transparent;
   background-size: 22px;
   background-repeat: no-repeat;
   background-position: center;
