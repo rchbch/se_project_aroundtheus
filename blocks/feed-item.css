@@ -11,6 +11,7 @@
   width: 282px;
   height: 282px;
   object-fit: cover;
+  display: block;
 }
 
 .feed-item__name {
@@ -20,23 +21,22 @@
   font-size: 24px;
   line-height: 1.2;
   color: #000;
-  margin: 25px 28px 25px 20px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.feed-item__name-wrapper {
+  margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 
+.feed-item__name-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 20px;
+}
+
 .feed-item__like-button {
   background-image: url(../images/Vector.svg);
   color: #000;
-  margin-top: 7px;
   position: relative;
   min-width: 21px;
   height: 18px;
